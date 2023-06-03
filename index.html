@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 86px;
+            background-color: rgb(18, 18, 66);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(153, 80, 222);
+            font-size: 1.02rem;
+        }
+
+        .left {
+            font-size: 1.86rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0px;
+
+
+        }
+
+        .firstSection div {
+            width: 35%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: 30px 0px;
+        }
+
+        #element {
+            color: rgb(153, 80, 222);
+
+        }
+
+        .secondSection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: rgb(255, 255, 255);
+            width: 80vw;
+            height: 4px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            width: 3px;
+            height: 93px;
+            background: white;
+            margin-top: 0;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        main hr {
+            border: 0;
+            margin: 40px 83px;
+            height: 1px;
+            background-color: rgb(192, 172, 211);
+        }
+
+        .purple {
+            color: rgb(153, 80, 222);
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        .image-top {
+            position: relative;
+            width: 35px;
+            top: -50px;
+            left: -15px;
+        }
+
+        .vertical-text {
+            position: relative;
+            width: 105px;
+            top: 50px;
+            left: -35px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            width: 150px;
+            top: 60px;
+            left: -40px;
+            font-size: 9px;
+            color: grey;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+
+            <div class="leftSection">Hello, My name is <span class="purple">Chandra Pavan</span>
+                <p>I am a </p>
+                <p><span id="element"></span></p>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="secondSection">
+                <div class="box">
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">Mainframe Developer</div>
+                        <div class="vertical-desc">Deployed three critical applications using the waterfall model in Mainframes using COBOL and JCL, delivering
+                            them ahead of schedule and contributing to a revenue increase of $20 million for the company</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">SQL Tester</div>
+                        <div class="vertical-desc">Migrated complex stored procedures from an outdated SQL server to a newer MS SQL server, conducting
+                            rigorous testing using Advance Excel to ensure seamless operation and opening new opportunities for future
+                            development and modifications.</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">Web development</div>
+                        <div class="vertical-desc">During my time as a freelancer, I had the opportunity to work extensively with HTML, CSS, and JavaScript. These three technologies form the fundamental building blocks of modern web development. With my expertise in these languages, I built business websites for 15 clients.</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">FORTRAN Developer</div>
+                        <div class="vertical-desc">Designed and developed a shortcut feature using FORTRAN and SQL that sped up processing time by 54 seconds,
+                            optimizing processes and increasing productivity by 10%.Carried out a production flow analysis that resulted in creating an optimized flow, making optimization easier.</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">Software Engineer</div>
+                        <div class="vertical-desc">Effectively managed many applications and resolved numerous priority incidents using Java, FORTRAN, and SQL,
+                            demonstrating excellent project management and problem-solving abilities.</div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="workex1.png">
+                        <div class="vertical-text">Bussiness Analyst</div>
+                        <div class="vertical-desc">Used classification techniques such as logistic regression, Decision tree, and Random Forest with around 80%
+                            accuracy and created a prediction model which predicts whether a customer takes a term deposit or not.</div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Engineer', 'Data Analyst', 'Web Developer', 'Software Engineer', 'Data Analyst', 'Web Developer', 'Software Engineer', 'Data Analyst', 'Web Developer', 'Software Engineer', 'Data Analyst', 'Web Developer', 'Software Engineer', 'Data Analyst', 'Web Developer'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
